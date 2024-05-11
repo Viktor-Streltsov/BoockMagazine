@@ -5,8 +5,6 @@ import InstagramIcon from '@/components/theFooter/icons/InstagramIcon'
 import TwitterIcon from '@/components/theFooter/icons/TwitterIcon'
 import FacebookIcons from '@/components/theFooter/icons/FacebookIcons'
 import ArrowIcons from '@/components/theFooter/icons/ArrowIcons'
-import { navItems } from '@/components/theHeader/TheHeader'
-import Navigation from '@/components/theHeader/navigation/Navigation'
 import styles from './TheFooter.module.scss'
 
 const TheFooter = () => {
@@ -53,7 +51,6 @@ const TheFooter = () => {
 					</div>
 					<div className={styles.footerLink}>
 						<div className={styles.nameLink}>Link</div>
-						<Navigation navLinks={navItems} />
 					</div>
 				</div>
 			</div>

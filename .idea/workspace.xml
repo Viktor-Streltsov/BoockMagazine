@@ -5,7 +5,36 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2958d0eb-6180-4c29-a3e9-6adb45642fee" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/TheBestseller.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/TheBestseller.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/icons/AroowLinck.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/icons/imageOne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/icons/imageTheree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/icons/imageTwo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theCriteria/icons/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theCriteria/icons/ArrowRight.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theHeader/icons/Search.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theHeader/icons/User.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theOpenWorld/icons/pusyka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/styles/Layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/Layout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFooter/TheFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theFooter/TheFooter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFuture/TheFuture.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theOpenWorld/TheOpenWorld.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFuture/TheFuture.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theOpenWorld/TheOpenWorld.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFuture/icons/CircleArrowIcons.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFuture/icons/worked.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theOpenWorld/icons/worked.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theHeader/TheHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/TheHeader.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theHeader/navigation/Navigation.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theHeader/navigation/Navigation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theYears/TheYears.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theYears/TheYears.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theYears/icons/workedMen.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theCriteria/icons/workedMen.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +44,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
         <option value="SCSS File" />
-        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -49,26 +78,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ViktoR/Desktop/myDocument/progectDiplom/LendingConstruction/src/app&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.HTML&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\ViktoR\\Desktop\\myDocument\\progectDiplom\\BoockMagazine\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ViktoR/Desktop/myDocument/progectDiplom/BoockMagazine/src/components/theBestseller/icons",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.sourceCode.HTML",
+    "ts.external.directory.path": "C:\\Users\\ViktoR\\Desktop\\myDocument\\progectDiplom\\BoockMagazine\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactDesignerToolWindowState">
     <option name="myId2Visible">
       <map>
@@ -80,17 +109,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theBestseller\icons" />
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theCriteria\icons" />
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theHeader\icons" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\app" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\components" />
-      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src" />
-      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\app\styles\Home\icons" />
-      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\components\theFeatured\dateTower\icons" />
-      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\components\TheComments\icons" />
-      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\components\theYears\icons" />
-      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\components\theFuture\icons" />
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theBestseller\icons" />
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theCriteria\icons" />
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theCriteria" />
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theOpenWorld\icons" />
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theOpenWorld" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -153,6 +183,8 @@
       <workItem from="1714830058185" duration="8788000" />
       <workItem from="1715112217800" duration="1300000" />
       <workItem from="1715426581072" duration="434000" />
+      <workItem from="1715427112577" duration="8606000" />
+      <workItem from="1715435888368" duration="4571000" />
     </task>
     <servers />
   </component>

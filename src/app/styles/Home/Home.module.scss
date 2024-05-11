@@ -1,30 +1,32 @@
 @import "../mixin";
 
-.wrapperFuture {
+.wrapperOpenWorld {
   width: 100%;
   height: 778px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: url("../../../components/theFuture/icons/worked.png");
-  background-size: cover;
-  background-position: center;
+  background: rgba(1, 70, 89, 1);
   padding: 0 112px;
 }
 
-.wrapperYears {
+.wrapperCriteria {
   width: 100%;
-  height: 890px;
-  background: #191A19;
-  padding: 60px 112px 27px;
-  position: relative;
+  height: 613px;
+  background: #fff;
+  padding: 0 112px;
+  margin: 40px 0;
+}
+
+.wrapperBestseller {
+  width: 100%;
+  height: 500px;
+  padding: 42px 112px;
+  margin-bottom: 120px;
 }
 
 .wrapperFeatured {
-  width: 100%;
-  height: 950px;
-  background: #AE1919;
-  padding: 42px 112px;
+  background: red;
 }
 
 .wrapperComments {
