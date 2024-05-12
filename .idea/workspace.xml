@@ -5,36 +5,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2958d0eb-6180-4c29-a3e9-6adb45642fee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/TheBestseller.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/TheBestseller.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/icons/AroowLinck.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/icons/imageOne.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/icons/imageTheree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theBestseller/icons/imageTwo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theCriteria/icons/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theCriteria/icons/ArrowRight.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theHeader/icons/Search.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theHeader/icons/User.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/theOpenWorld/icons/pusyka.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theBooksSold/TheBooksSold.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theBooksSold/TheBooksSold.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theBooksSold/TheSlider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theCollections/TheCollection.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theCollections/TheCollection.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theCollections/TheSlider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theFooter/icons/CarIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theFooter/icons/ClassssIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theFooter/icons/FileBlockIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theFooter/icons/ProsentIcon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theFooter/icons/acounti.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theFooter/icons/facebook.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theFooter/icons/insta.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theFooter/icons/twiter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theFooter/icons/youtybe.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theOffers/TheOffers.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theOffers/TheOffers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theOffers/TheOffers.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theReceipts/TheReceipts.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/theReceipts/TheReceipts.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/Home/Home.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/styles/Layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/styles/Layout.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/icons/Logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/icons/Logo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheComments/TheComments.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheComments/TheComments.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheComments/TheSliderComments.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheComments/dateComment/DateComment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TheComments/icons/1man.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFeatured/TheFeatured.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFeatured/TheFeatured.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFeatured/TheSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theReceipts/TheSlider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFooter/TheFooter.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theFooter/TheFooter.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/theFooter/TheFooter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theFooter/TheFooter.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theFuture/TheFuture.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theOpenWorld/TheOpenWorld.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theFuture/TheFuture.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theOpenWorld/TheOpenWorld.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theFuture/icons/CircleArrowIcons.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theFuture/icons/worked.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theOpenWorld/icons/worked.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFooter/icons/FacebookIcons.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFooter/icons/InstagramIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFooter/icons/LinkedinIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFooter/icons/MediumIcon.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theFooter/icons/TwitterIcon.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/theHeader/TheHeader.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/TheHeader.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theHeader/TheHeader.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theHeader/navigation/Navigation.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theHeader/navigation/Navigation.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theYears/TheYears.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theYears/TheYears.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theCriteria/TheCriteria.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/theYears/icons/workedMen.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/theCriteria/icons/workedMen.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theRequest/TheRequest.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/theRequest/TheRequest.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +59,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
-        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -83,7 +98,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/ViktoR/Desktop/myDocument/progectDiplom/BoockMagazine/src/components/theBestseller/icons",
+    "last_opened_file_path": "C:/Users/ViktoR/Desktop/myDocument/progectDiplom/BoockMagazine/src/components/theCollections",
     "list.type.of.created.stylesheet": "SCSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.standard": "true",
@@ -109,18 +124,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theCollections" />
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theBooksSold" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theBestseller\icons" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theCriteria\icons" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theHeader\icons" />
-      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\app" />
-      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\LendingConstruction\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theReceipts" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theBestseller\icons" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theCriteria\icons" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theCriteria" />
       <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theOpenWorld\icons" />
-      <recent name="C:\Users\ViktoR\Desktop\myDocument\progectDiplom\BoockMagazine\src\components\theOpenWorld" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -184,7 +199,9 @@
       <workItem from="1715112217800" duration="1300000" />
       <workItem from="1715426581072" duration="434000" />
       <workItem from="1715427112577" duration="8606000" />
-      <workItem from="1715435888368" duration="4571000" />
+      <workItem from="1715435888368" duration="12072000" />
+      <workItem from="1715462243473" duration="666000" />
+      <workItem from="1715512584672" duration="8950000" />
     </task>
     <servers />
   </component>

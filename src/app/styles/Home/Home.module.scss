@@ -22,11 +22,30 @@
   width: 100%;
   height: 500px;
   padding: 42px 112px;
-  margin-bottom: 120px;
+  margin-bottom: 80px;
 }
 
 .wrapperFeatured {
-  background: red;
+  margin-bottom: 80px;
+}
+
+.wrapperFeatured {
+  padding: 0 112px;
+}
+
+.wrapperOffers {
+  padding: 80px 112px;
+  background: rgba(241, 89, 43, 0.2);
+}
+
+.wrapperBooksSold, .wrapperCollection {
+  height: 500px;
+  padding: 42px 112px;
+  margin-bottom: 120px;
+}
+
+.wrapperCollection {
+  margin-bottom: 135px;
 }
 
 .wrapperComments {
@@ -35,16 +54,6 @@
 
 .wrapperRequest {
   height: auto;
-  background: url("./icons/fon.png") no-repeat;
-  background-size: cover;
-  background-position: center;
-
-}
-
-.componentRequest {
-  height: auto;
-  padding: 45px 112px;
-  background: linear-gradient(180deg, #191A19 0%, rgba(0, 0, 0, 0) 152.79%);
 }
 
 .listInfo {

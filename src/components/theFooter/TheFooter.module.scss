@@ -1,95 +1,78 @@
 .footer {
-  max-width: 1440px;
-  margin: 0 auto;
-  height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: flex-start;
-  column-gap: 100px;
-  flex-shrink: 0;
-  background: #191A19;
-  padding: 65px 112px 50px;
-}
-
-.componentFooter {
   width: 100%;
+  background: #fff;
+  height: 300px;
+  margin-bottom: 50px;
 }
 
-.footerImage {
+.contentYslug {
+  width: 100%;
+  background: #111;
+}
+
+.yslygi {
+  width: 1423px;
+  height: 149px;
+  margin: 0 auto;
+  padding: 0 112px;
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  column-gap: 14px;
-}
-
-.inputEmail {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  column-gap: 8px;
-  position: relative;
-}
-
-.imageArrow {
-  position: absolute;
-  right: 0;
-}
-
-.headerInput {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 14px;
+  column-gap: 30px;
 }
 
-.inputText {
-  width: 271px;
-  height: 30px;
-  border: none;
-  padding-bottom: 2px;
-  color: #ffffff;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  background: #191A19;
-
-  &:focus {
-    outline: none;
-  }
-}
-
-.footerBlock {
+.blockYsl {
+  width: 332px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  column-gap: 26px;
   align-items: center;
-}
-
-.nameFooter, .textInput, .nameLink {
-  color: #ffffff;
-}
-
-.footerInfo {
-  max-width: 600px;
 }
 
 .text {
-  max-width: 450px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
   color: #fff;
-  margin-bottom: 14px;
 }
 
-.footerLink {
+.blockAcounti {
+  width: 1423px;
+  height: 150px;
+  margin: 0 auto;
+  padding: 0 112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.follow {
   display: flex;
   flex-direction: column;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  align-items: center;
+  row-gap: 23px;
 }
 
-.nameLink {
-  font-size: 20px;
-  line-height: 30px;
+.siti {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.followText {
+  font-size: 16px;
   font-weight: 500;
-  margin-bottom: 14px;
+  line-height: 14px;
+  color: rgba(17, 17, 17, 0.8);
+}
+
+.logo {
+  width: 460px;
+  height: 150px;
+  display: grid;
+  place-items: center;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
 }

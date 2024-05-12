@@ -1,11 +1,13 @@
 import React from 'react'
 import TheOpenWorld from '@/components/theOpenWorld/TheOpenWorld'
 import TheCriteria from '@/components/theCriteria/TheCriteria'
-import TheFeatured from '@/components/theFeatured/TheFeatured'
-import TheRequest from '@/components/theRequest/TheRequest'
-import TheComments from '@/components/TheComments/TheComments'
-import styles from './styles/Home/Home.module.scss'
+import TheReceipts from '@/components/theReceipts/TheReceipts'
 import TheBestseller from '@/components/theBestseller/TheBestseller'
+import TheOffers from '@/components/theOffers/TheOffers'
+import TheBooksSold from '@/components/theBooksSold/TheBooksSold'
+import styles from './styles/Home/Home.module.scss'
+import TheCollection from '@/components/theCollections/TheCollection'
+
 
 const Home = () => {
 	return (
@@ -20,15 +22,18 @@ const Home = () => {
 				<TheBestseller />
 			</section>
 			<section className={styles.wrapperFeatured}>
-				<TheFeatured />
+				<TheReceipts />
 			</section>
-			<section className={styles.wrapperComments}>
-				<TheComments />
+			<section className={styles.wrapperOffers}>
+				<TheOffers />
+			</section>
+			<section className={styles.wrapperBooksSold}>
+				<TheBooksSold />
+			</section>
+			<section className={styles.wrapperCollection}>
+				<TheCollection />
 			</section>
 			<section className={styles.wrapperRequest}>
-				<div className={styles.componentRequest}>
-					<TheRequest />
-				</div>
 			</section>
 		</>
 	)

@@ -1,19 +1,32 @@
 'use client'
 
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import Slider from 'react-slick'
-import Image from 'next/image'
-import Photo from './icons/1.png'
 import ArrowRight from '@/components/theCriteria/icons/ArrowRight'
 
 import './TheCriteria.scss'
 import styles from './TheCriteria.module.scss'
 
+
 const TheCriteria = () => {
+	const [data, setData] = useState([])
 	const [slideIndex, setSlideIndex] = useState<number>(0)
 	const [updateCount, setUpdateCount] = useState<number>(0)
 
 	let sliderRef = useRef<Slider | null>(null)
+
+	useEffect(() => {
+		const fetchData = async () => {
+			const response = await fetch('https://freetestapi.com/api/v1/books')
+			if (!response.ok) {
+				throw new Error('Unable to fetch posts!')
+			}
+			const jsonData = await response.json()
+			setData(jsonData)
+		}
+
+		fetchData()
+	}, [])
 
 	const settings = {
 		infinite: true,
@@ -45,49 +58,21 @@ const TheCriteria = () => {
 	return (
 		<div>
 			<h2 className={styles.nameHeader}>Магазин по категориям</h2>
-			<div className='slider-container'>
+			<div className='sliderCriteria'>
 				<Slider
 					ref={slider => {
 						sliderRef.current = slider
 					}}
 					{...settings}
 				>
-					<div className={styles.blocBook}>
-						<div className={styles.blockImage}>
-							<Image src={Photo} alt='image' />
+					{data.map((elem: any) => (
+						<div key={elem.id} className={styles.blocBook}>
+							<div className={styles.blockImage}>
+								<img className={styles.images} src={elem.cover_image} alt='image' />
+							</div>
+							<div className={styles.blockText}>{elem.genre[0]}</div>
 						</div>
-						<div className={styles.blockText}>Suspense & Thriller</div>
-					</div>
-					<div className={styles.blocBook}>
-						<div className={styles.blockImage}>
-							<Image src={Photo} alt='image' />
-						</div>
-						<div className={styles.blockText}>Social Media</div>
-					</div>
-					<div className={styles.blocBook}>
-						<div className={styles.blockImage}>
-							<Image src={Photo} alt='image' />
-						</div>
-						<div className={styles.blockText}>Modern Fiction</div>
-					</div>
-					<div className={styles.blocBook}>
-						<div className={styles.blockImage}>
-							<Image src={Photo} alt='image' />
-						</div>
-						<div className={styles.blockText}>Fiction & Fantasy</div>
-					</div>
-					<div className={styles.blocBook}>
-						<div className={styles.blockImage}>
-							<Image src={Photo} alt='image' />
-						</div>
-						<div className={styles.blockText}>History</div>
-					</div>
-					<div className={styles.blocBook}>
-						<div className={styles.blockImage}>
-							<Image src={Photo} alt='image' />
-						</div>
-						<div className={styles.blockText}>Religion</div>
-					</div>
+					))}
 				</Slider>
 				<div className={styles.blockButtons}>
 					<button className={styles.buttonPrev} onClick={previous}>
